@@ -18,7 +18,6 @@ Utiliza **Playwright (async)** para navegar por contenido dinámico, visitar el 
   - Semanas en lista
   - URL del artista
   - Imagen del artista
-- 🧠 Normalización de fechas en español (ej: *“11 ene 2025” → 2025-01-11*).
 - 💾 Persistencia en **MySQL** con control de duplicados.
 - ⚙️ Manejo robusto de errores, navegación y renderizado dinámico.
 - 🔁 Preparado para automatización (cron, Docker, ECS, Lambda).
