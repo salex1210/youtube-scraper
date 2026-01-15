@@ -1,0 +1,24 @@
+# Credenciales y variables
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Playwright / Scraping
+.playwright/
+.cache/
+
+# Docker
+*.tar
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
