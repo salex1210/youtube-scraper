@@ -8,7 +8,6 @@ import re
 
 URL = "https://charts.youtube.com/charts/TopArtists/co/weekly"
 
-
 MESES_ES = {
     "ene": "01", "feb": "02", "mar": "03", "abr": "04",
     "may": "05", "jun": "06", "jul": "07", "ago": "08",
