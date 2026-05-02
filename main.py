@@ -40,6 +40,7 @@ def parse_fecha_es(fecha_str: str) -> str:
         pass
 
     # Caso: 11/01/2025
+    
     try:
         dt = datetime.strptime(fecha_str, "%d/%m/%Y")
         return dt.strftime("%Y-%m-%d")
