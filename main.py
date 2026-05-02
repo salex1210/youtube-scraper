@@ -8,6 +8,7 @@ import re
 
 URL = "https://charts.youtube.com/charts/TopArtists/co/weekly"
 
+
 MESES_ES = {
     "ene": "01", "feb": "02", "mar": "03", "abr": "04",
     "may": "05", "jun": "06", "jul": "07", "ago": "08",
@@ -39,6 +40,7 @@ def parse_fecha_es(fecha_str: str) -> str:
         pass
 
     # Caso: 11/01/2025
+    
     try:
         dt = datetime.strptime(fecha_str, "%d/%m/%Y")
         return dt.strftime("%Y-%m-%d")
