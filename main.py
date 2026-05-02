@@ -18,6 +18,7 @@ MESES_ES = {
 # UTILIDADES
 # ===============================
 
+
 def normalize_text(text: str) -> str:
     text = unicodedata.normalize("NFKD", text)
     text = text.encode("ascii", "ignore").decode("ascii")
